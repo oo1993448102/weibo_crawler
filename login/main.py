@@ -1,4 +1,5 @@
-from login.db_helper import DatabaseHelper
+import execjs
+
 from login.helper import Helper
 
 if __name__ == '__main__':

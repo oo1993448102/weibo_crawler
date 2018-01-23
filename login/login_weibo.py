@@ -18,9 +18,13 @@ class LoginHelper(object):
             's': '62f551c4',
             'u': user}
         r = requests.post('https://api.weibo.cn/2/account/login?c=iphone', data=body)
-        self.gsid = r.json()['gsid']
-        # print(Util.format(r))
-        pass
+        try:
+            self.gsid = r.json()['gsid']
+        except:
+            print('login error!!!')
+            return
+
+    pass
 
 
     def get_gsid(self):
