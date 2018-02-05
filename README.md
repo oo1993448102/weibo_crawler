@@ -1,5 +1,5 @@
 # weibo_crawler
-微博相关功能爬虫抓取
+微博相关功能爬虫抓取（客户端）
 
 function：
 * 抓取新鲜事 并保存至本地mongoDB
