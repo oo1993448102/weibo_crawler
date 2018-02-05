@@ -6,7 +6,8 @@ from login.util import Util
 
 class LoginHelper(object):
     def __init__(self):
-        self.default_pwd = '抓包后输入其中的p'
+        # 登陆是抓包p字段填入
+        self.default_pwd = ''
         self.gsid = None
         pass
 
